@@ -1,5 +1,4 @@
-# EXP_Pruning
-EXP way : Complete pruning using the expectation scaling factor
+# SSF_Pruning
 
 ## Running Code
 

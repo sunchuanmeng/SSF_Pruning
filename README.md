@@ -31,51 +31,53 @@
 
 For the ease of reproducibility. we provide some of the experimental results and the corresponding pruned rate of every layer as belows:
 
-### 1. VGG-16
+### 1. VGG-16--CIFAR10
 
 | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|
 | 100%      | 93.96%    |[VGG16](https://drive.google.com/file/d/1q_uzAvsAPyQxdaeYWy9NkpnRxwWRr_zc/view?usp=sharing)
-| 53.1%     | 93.64%    |[A](https://drive.google.com/file/d/1S4he_cv9NGbtT3HL13uQ5qZQ5_r_3W9N/view?usp=sharing)|
-| 53.1%     | 93.55%    |[B](https://drive.google.com/file/d/1Df7LM3kNULiqhT97TXgAlcvqETcJXwzK/view?usp=sharing)| 
-| 60.8%     | 93.50%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 
+| 48.12%    | 93.80%    |[A](https://drive.google.com/file/d/1S4he_cv9NGbtT3HL13uQ5qZQ5_r_3W9N/view?usp=sharing)|
+| 58.40%    | 93.45%    |[B](https://drive.google.com/file/d/1Df7LM3kNULiqhT97TXgAlcvqETcJXwzK/view?usp=sharing)| 
+| 62.51%    | 93.41%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 
+| 69.32%    | 93.16%    |
 
 
-### 2. ResNet-56
+### 2. ResNet-56--CIFAR10
 
 | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|
 | 100%      | 93.26%    |[ResNet-56](https://drive.google.com/file/d/1WE83j7rlKlCp-tslSL6hS-d_mJe4ZQ2r/view?usp=sharing)
-| 53.5%     | 93.54%    |[A](https://drive.google.com/file/d/1WhW7O0-GDvZCLpwvXdCLVWK5kddgk94z/view?usp=sharing)|
-| 53.5%     | 93.82%    |[B](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)|
-| 60.5%     | 93.48%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)|
+| 52.25%    | 93.74%    |[A](https://drive.google.com/file/d/1WhW7O0-GDvZCLpwvXdCLVWK5kddgk94z/view?usp=sharing)|
+| 57.11%    | 93.20%    |[B](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)|
+| 67.04%    | 92.90%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)|
+| 69.93%    | 92.56%
 
 
-### 3. ResNet-110
+
+### 3. ResNet-110--CIFAR10
 
 | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|
 | 100%      | 93.50%    |[ResNet-110](https://drive.google.com/file/d/1YhJHzSBiCsQcNIdamI2_GzclpXvSXcPG/view?usp=sharing)
-| 60.1%     | 93.96%    |[A](https://drive.google.com/file/d/1qTeTYPiyVZCPaEhzH1z_HvDyKlWuQtoF/view?usp=sharing)|
-| 60.1%     | 93.73%    |[B](https://drive.google.com/file/d/1UNPm5DWO8JYZGtbWAmELVkjb5UDcamem/view?usp=sharing)|
+| 64.69%    | 94.04%    |[A](https://drive.google.com/file/d/1qTeTYPiyVZCPaEhzH1z_HvDyKlWuQtoF/view?usp=sharing)|
 
 
-### 4. GoogLeNet
 
-| Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
-|-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
+### 4. GoogLeNet--CIFAR10
+
+| Flops     | Accuracy  |way and Model                |
+|-----------|-----------|-----------------------------|
 | 100%      | 95.05%    |[GoogLeNet](https://drive.google.com/file/d/1TXF2OUwkUUWBVAj5Q-QRRO2ZNVRcdmqB/view?usp=sharing)
-| 62.1%     | 95.02%    |[A](https://drive.google.com/file/d/19N_maLGWQAlO4m_S77Qm4m791oMoe4ha/view?usp=sharing)|
-| 62.1%     | 94.95%    |[B](https://drive.google.com/file/d/1woyidXT9O-TQHiieEUrSu7UTbxVPkvtA/view?usp=sharing)|
+| 69.73%    | 95.18%    |[A](https://drive.google.com/file/d/19N_maLGWQAlO4m_S77Qm4m791oMoe4ha/view?usp=sharing)|
 
 
-### 5. ResNet-50
 
-| Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
-|-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
+### 5. ResNet-50--ILSVRC2012
+
+| Flops     | Accuracy  |way and Model                |
+|-----------|-----------|-----------------------------|
 | 100%      | 76.15%    |[ResNet-50](https://drive.google.com/file/d/1H8MlYJCSLmjJOaLjSBMCeh5zfN2bEYT9/view?usp=sharing)
-| 53.05%    |  75.71%    |[A](https://drive.google.com/file/d/1qZsJibWGkZTp6AiVOt_OrLZz-_crKYEo/view?usp=sharing)| 60.63%     | 74.53%    |[A](https://drive.google.com/file/d/1A9JiEkOXTKbezOscs5_crf3rvio5HSIz/view?usp=sharing)
-| 53.05%    |  75.76%    |[B](https://drive.google.com/file/d/12J-HEY1CMqREsfQEMNfiYpw7ON90WuF8/view?usp=sharing)| 60.00%     | 75.02%    |[B](https://drive.google.com/file/d/1kEAO46J2j5k6wnMeh9dKh-EvdaDd0M6C/view?usp=sharing)
+| 53.05%    | 75.71%    |[A](https://drive.google.com/file/d/1qZsJibWGkZTp6AiVOt_OrLZz-_crKYEo/view?usp=sharing)| 
 
 
 
